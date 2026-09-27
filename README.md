@@ -2,6 +2,14 @@
 
 A user-friendly autonomous multi-agent platform: 10 specialist agents, central orchestration, persistent event history, controlled collaboration, priority-based notifications, REST API, animated dashboard, Docker deployment, health checks and CI.
 
+## 🎬 See It in Action
+
+<p align="center">
+  <img src="docs/multi-agent-demo.gif" alt="Autonomous Multi-Agent Intelligence System animated workflow demo" width="720">
+</p>
+
+The animation shows autonomous events being routed through the orchestrator to specialist agents, persistent memory, and the user notification layer.
+
 ## 🎮 Interactive Demo
 
 **[▶ Open the live Multi-Agent System demo](https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/)**
