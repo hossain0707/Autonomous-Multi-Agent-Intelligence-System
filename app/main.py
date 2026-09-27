@@ -39,8 +39,7 @@ async def collaborate(req:CollaborationRequest):
         return {"task":task,"result":await orchestrator.process_one()}
     except ValueError as e: raise HTTPException(400,str(e))
 
-@app.get("/api/notifications")
-async def notifications(): return orchestrator.notifications[-50:]
+@app.get("/api/notifications")\nasync def notifications(): return orchestrator.notifications[-50:]\n\n@app.get("/api/history")\nasync def history(limit:int=50):\n    from .storage import store\n    return store.recent(max(1,min(limit,200)))
 
 @app.get("/",response_class=HTMLResponse)
 async def dashboard(): return DASHBOARD
