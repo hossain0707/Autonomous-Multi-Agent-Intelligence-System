@@ -2,21 +2,43 @@
 
 A user-friendly autonomous multi-agent platform: 10 specialist agents, central orchestration, persistent event history, controlled collaboration, priority-based notifications, REST API, animated dashboard, Docker deployment, health checks and CI.
 
-## 🎬 See It in Action
+## ✨ Live Architecture Preview
 
-<p align="center">
-  <img src="docs/multi-agent-demo.gif" alt="Autonomous Multi-Agent Intelligence System animated workflow demo" width="720">
-</p>
+> **Interactive controls cannot run inside a GitHub README itself** because GitHub strips JavaScript and iframes. The full live experience is therefore provided by the repository's `docs/index.html` app, while the README shows a clean architecture overview.
 
-The animation shows autonomous events being routed through the orchestrator to specialist agents, persistent memory, and the user notification layer.
+<table>
+<tr>
+<td align="center"><b>👤 USER</b><br><sub>Dashboard · Mobile · Alerts</sub></td>
+<td align="center">⬆️</td>
+<td align="center"><b>🔔 NOTIFICATION INTELLIGENCE</b><br><sub>Filter · Rank · Summarize</sub></td>
+</tr>
+<tr>
+<td></td><td align="center">⬆️</td><td></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><b>🧠 CENTRAL ORCHESTRATOR</b><br><sub>Routing · Permissions · Priority · Retry · Coordination</sub></td>
+</tr>
+<tr>
+<td colspan="3" align="center">↕️<br><b>⚡ EVENT / MESSAGE BUS</b><br><sub>task.created · agent.request · result.ready · alert.detected</sub></td>
+</tr>
+<tr>
+<td align="center">🔬 <b>A1 LLM Research</b><br>📚 <b>A2 Papers</b><br>💻 <b>A3 GitHub</b><br>💼 <b>A4 Career</b><br>📊 <b>A5 Market</b></td>
+<td align="center"><b>↔️</b><br><sub>controlled<br>collaboration</sub></td>
+<td align="center">🖥️ <b>A6 Infrastructure</b><br>📋 <b>A7 Projects</b><br>📧 <b>A8 Documents</b><br>🌐 <b>A9 Knowledge</b><br>🛡️ <b>A10 Security</b></td>
+</tr>
+<tr>
+<td colspan="3" align="center">⬇️<br><b>💾 PERSISTENT MEMORY</b><br><sub>History · Context · Results</sub></td>
+</tr>
+</table>
 
-## 🎮 Interactive Demo
+### 🎮 Interactive Demo
 
-**[▶ Open the live Multi-Agent System demo](https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/)**
+The interactive demo is already included at **`docs/index.html`**. Once GitHub Pages is enabled for this repository, visitors can run Autonomous Mode, scheduled events, individual agents, priority-based notifications, and agent-to-agent collaboration directly in their browser.
 
-Try **Autonomous Mode**, trigger a **Scheduled Event**, run any of the 10 agents manually, or watch **Agent Collaboration** in real time.
+**Live URL after Pages is enabled:**  
+`https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/`
 
-> GitHub README pages do not execute embedded JavaScript, so the interactive application is hosted from this repository through GitHub Pages. If Pages has not been enabled yet, go to **Settings → Pages → Deploy from a branch → main → /docs → Save**. This only needs to be done once.
+**Enable it once:** **Repository Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/docs` → Save.**
 
 ## 60-second setup
 ```bash
