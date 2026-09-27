@@ -2,43 +2,40 @@
 
 A user-friendly autonomous multi-agent platform: 10 specialist agents, central orchestration, persistent event history, controlled collaboration, priority-based notifications, REST API, animated dashboard, Docker deployment, health checks and CI.
 
-## ✨ Live Architecture Preview
+## 🎮 Interactive Live Demo
 
-> **Interactive controls cannot run inside a GitHub README itself** because GitHub strips JavaScript and iframes. The full live experience is therefore provided by the repository's `docs/index.html` app, while the README shows a clean architecture overview.
+[![Launch Interactive Multi-Agent System](https://img.shields.io/badge/▶_LAUNCH_INTERACTIVE_DEMO-00C7E6?style=for-the-badge&logo=github&logoColor=white)](https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/)
 
-<table>
-<tr>
-<td align="center"><b>👤 USER</b><br><sub>Dashboard · Mobile · Alerts</sub></td>
-<td align="center">⬆️</td>
-<td align="center"><b>🔔 NOTIFICATION INTELLIGENCE</b><br><sub>Filter · Rank · Summarize</sub></td>
-</tr>
-<tr>
-<td></td><td align="center">⬆️</td><td></td>
-</tr>
-<tr>
-<td colspan="3" align="center"><b>🧠 CENTRAL ORCHESTRATOR</b><br><sub>Routing · Permissions · Priority · Retry · Coordination</sub></td>
-</tr>
-<tr>
-<td colspan="3" align="center">↕️<br><b>⚡ EVENT / MESSAGE BUS</b><br><sub>task.created · agent.request · result.ready · alert.detected</sub></td>
-</tr>
-<tr>
-<td align="center">🔬 <b>A1 LLM Research</b><br>📚 <b>A2 Papers</b><br>💻 <b>A3 GitHub</b><br>💼 <b>A4 Career</b><br>📊 <b>A5 Market</b></td>
-<td align="center"><b>↔️</b><br><sub>controlled<br>collaboration</sub></td>
-<td align="center">🖥️ <b>A6 Infrastructure</b><br>📋 <b>A7 Projects</b><br>📧 <b>A8 Documents</b><br>🌐 <b>A9 Knowledge</b><br>🛡️ <b>A10 Security</b></td>
-</tr>
-<tr>
-<td colspan="3" align="center">⬇️<br><b>💾 PERSISTENT MEMORY</b><br><sub>History · Context · Results</sub></td>
-</tr>
-</table>
+**Open the full animated control center in your browser.** Run individual agents, start Autonomous Mode, simulate scheduled events, change priority, and watch controlled agent-to-agent collaboration.
 
-### 🎮 Interactive Demo
+> The live experience is the exact interactive dashboard in `docs/index.html`. GitHub README itself cannot execute its JavaScript, so the button above opens the full-screen GitHub Pages application.
 
-The interactive demo is already included at **`docs/index.html`**. Once GitHub Pages is enabled for this repository, visitors can run Autonomous Mode, scheduled events, individual agents, priority-based notifications, and agent-to-agent collaboration directly in their browser.
+### System Flow
 
-**Live URL after Pages is enabled:**  
-`https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/`
-
-**Enable it once:** **Repository Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/docs` → Save.**
+```text
+                         ┌──────────────────────────┐
+                         │        👤  USER          │
+                         └────────────┬─────────────┘
+                                      ↑
+                         ┌────────────┴─────────────┐
+                         │ 🔔 Notification Intelligence │
+                         └────────────┬─────────────┘
+                                      ↑
+                    ┌─────────────────┴─────────────────┐
+                    │       🧠 CENTRAL ORCHESTRATOR     │
+                    │ Routing • Permission • Priority   │
+                    └─────────────────┬─────────────────┘
+                                      ↕
+                    ┌─────────────────┴─────────────────┐
+                    │        ⚡ EVENT / MESSAGE BUS      │
+                    └───┬────┬────┬────┬────┬────┬────┘
+                        ↕    ↕    ↕    ↕    ↕    ↕
+                     A1 LLM  A2   A3   ...       A10
+                                      ↕
+                         ┌────────────┴─────────────┐
+                         │   💾 PERSISTENT MEMORY   │
+                         └──────────────────────────┘
+```
 
 ## 60-second setup
 ```bash
