@@ -2,6 +2,14 @@
 
 A user-friendly autonomous multi-agent platform: 10 specialist agents, central orchestration, persistent event history, controlled collaboration, priority-based notifications, REST API, animated dashboard, Docker deployment, health checks and CI.
 
+## 🎮 Interactive Demo
+
+**[▶ Open the live Multi-Agent System demo](https://hossain0707.github.io/Autonomous-Multi-Agent-Intelligence-System/)**
+
+Try **Autonomous Mode**, trigger a **Scheduled Event**, run any of the 10 agents manually, or watch **Agent Collaboration** in real time.
+
+> GitHub README pages do not execute embedded JavaScript, so the interactive application is hosted from this repository through GitHub Pages. If Pages has not been enabled yet, go to **Settings → Pages → Deploy from a branch → main → /docs → Save**. This only needs to be done once.
+
 ## 60-second setup
 ```bash
 git clone https://github.com/hossain0707/Autonomous-Multi-Agent-Intelligence-System.git
