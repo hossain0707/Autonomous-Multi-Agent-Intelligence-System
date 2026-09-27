@@ -232,7 +232,7 @@ Released under the [MIT License](LICENSE).
 
 <div align="center">
 
-### Hossain Md Najmul
+### MD NAJMUL HOSSAIN 
 
 **AI Research Engineer · LLM & Multi-Agent Systems**
 
